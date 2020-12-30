@@ -99,8 +99,3 @@
     * The lang entry will have a key of `block.jsonifycraft.[blockname].lore`.
 * `shimmer`
     * Causes the block's item to shimmer, similarly to an enchanted item.
-
-## Examples
-
-* [Dirt](../examples/dirt)
-* [Tall Grass](../examples/tallgrass)
