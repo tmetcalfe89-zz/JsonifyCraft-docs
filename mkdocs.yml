@@ -1,0 +1,19 @@
+site_name: JsonifyCraft
+site_description: JsonifyCraft is a content creation mod that allows defining your own custom items, blocks, and more with JSON!
+site_author: Timothy Metcalfe
+copyright: ©Timothy Metcalfe 2020
+theme: readthedocs
+extra_css:
+- css/extra.css
+nav:
+  - JsonifyCraft: 'index.md'
+  - Game Objects:
+    - 'items.md'
+    - 'food.md'
+    - 'blocks.md'
+  - Supporting Cast:
+    - 'bits.md'
+    - 'registries.md'
+  - Examples:
+    - 'examples/dirt.md'
+    - 'examples/tallgrass.md'
