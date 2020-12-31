@@ -26,7 +26,7 @@
 ### Required
 
 * `type`: `"block"`
-    * Type must be set to "block" for the entry to describe an block.
+    * Type must be set to "block" for the entry to describe a block.
 * `name`: `string`
     * The unique registry name for this block.
 
