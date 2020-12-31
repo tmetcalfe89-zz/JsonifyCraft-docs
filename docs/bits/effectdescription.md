@@ -4,7 +4,7 @@
 
 <pre class="styledpre">
 {
-  "effect": <a href="./../registries/effectregistry>Effect</a>,
+  "effect": <a href="./../registries/effectregistry">Effect</a>,
   "duration": int,
   "amplifier": int,
   "probability": float
