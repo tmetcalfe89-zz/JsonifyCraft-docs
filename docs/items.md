@@ -17,8 +17,13 @@
 
 ### Required
 
+<<<<<<< HEAD
 * `type`: `"item"`
     * Type must be set to "item" for the entry to describe an block.
+=======
+* `type`: `"block"`
+    * Type must be set to "block" for the entry to describe an block.
+>>>>>>> main
 * `name`: `string`
     * The unique registry name for this block.
 
