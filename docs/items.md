@@ -17,15 +17,10 @@
 
 ### Required
 
-<<<<<<< HEAD
 * `type`: `"item"`
-    * Type must be set to "item" for the entry to describe an block.
-=======
-* `type`: `"block"`
-    * Type must be set to "block" for the entry to describe an block.
->>>>>>> main
+    * Type must be set to "item" for the entry to describe an item.
 * `name`: `string`
-    * The unique registry name for this block.
+    * The unique registry name for this item.
 
 ### Optional
 
@@ -38,18 +33,18 @@
     * Valid entries are given by the [Tab Group Registry](./../registries#tab-group).
     * Defaults to misc.
 * `rarity`: `Rarity`
-    * The color of this block's item's name, given as a rarity string.
+    * The color of this item's name, given as a rarity string.
     * Valid entries are given by the [Rarity Registry](./../registries#rarity).
     * Defaults to common.
 * `stack`: `int`
-    * The maximum stack size of this block's item.
+    * The maximum stack size of this item.
     * Maximum is 64.
     * Minimum is 1.
     * Defaults to 64.
 
 ### Flags
 * `lore`
-    * Adds a line of lore to the block's item.
+    * Adds a line of lore to the item.
     * The lang entry will have a key of `block.jsonifycraft.[blockname].lore`.
 * `shimmer`
-    * Causes the block's item to shimmer, similarly to an enchanted item.
+    * Causes the item to shimmer, similarly to an enchanted item.
