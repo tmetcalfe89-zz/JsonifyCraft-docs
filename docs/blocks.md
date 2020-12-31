@@ -19,7 +19,7 @@
   "resistance": float,
   "hardness": float,
   "slip": float,
-  "harvester": <a href="./../bits#harvester">Harvester</a>
+  "harvester": <a href="./../bits/harvester">Harvester</a>
 }
 </pre>
 
@@ -85,7 +85,7 @@
     * Defaults to -1.0.
 * `harvester`: `Harvester`
     * The tool type that works on this block.
-    * See [Harvester](../bits#harvester) for more information.
+    * See [Harvester](../bits/harvester) for more information.
     * Defaults to empty.
 
 ### Flags

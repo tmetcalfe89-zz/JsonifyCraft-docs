@@ -17,7 +17,7 @@
   "meat": boolean,
   "canEatWhenFull": boolean,
   "fastToEat": boolean,
-  "effects": EffectDescription[]
+  "effects": <a href="./../bits/effectdescription">EffectDescription[]</a>
 }
 </pre>
 
@@ -60,7 +60,7 @@
     * Defaults to 64.
 * `effects`: `EffectDescription[]`
     * An array of effect descriptions detailing what effects the player incurs after eating.
-    * See [Effect Description](../bits#effect-description) for more information.
+    * See [Effect Description](../bits/effectdescription) for more information.
     * Defaults to empty.
 
 ### Flags

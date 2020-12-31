@@ -12,15 +12,16 @@ nav:
     - 'items.md'
     - 'blocks.md'
     - 'food.md'
-  - Supporting Cast:
-    - 'bits.md'
-    - Registries:
-      - 'registries/mapcolor.md'
-      - 'registries/material.md'
-      - 'registries/rarity.md'
-      - 'registries/soundtype.md'
-      - 'registries/tabgroup.md'
-      - 'registries/tooltype.md'
+  - Bits:
+    - 'bits/effectdescription.md'
+    - 'bits/harvester.md'
+  - Registries:
+    - 'registries/mapcolor.md'
+    - 'registries/material.md'
+    - 'registries/rarity.md'
+    - 'registries/soundtype.md'
+    - 'registries/tabgroup.md'
+    - 'registries/tooltype.md'
   - Examples:
     - 'examples/dirt.md'
     - 'examples/tallgrass.md'
