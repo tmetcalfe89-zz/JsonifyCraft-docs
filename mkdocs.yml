@@ -7,6 +7,7 @@ extra_css:
 - css/extra.css
 nav:
   - JsonifyCraft: 'index.md'
+  - Discord: 'https://discord.gg/Ca2hx6X'
   - Game Objects:
     - 'items.md'
     - 'blocks.md'
