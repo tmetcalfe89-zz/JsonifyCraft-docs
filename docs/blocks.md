@@ -7,14 +7,14 @@
 <pre class="styledpre">
 {
   "type": "block",
-  "flags": <a href="./../blocks#flags">Flag[]</a>,
+  "flags": <a href="./blocks#flags">Flag[]</a>,
   "name": String,
-  "group": <a href="./../registries#tabgroup">TabGroup</a>,
-  "rarity": <a href="./../registries#rarity">Rarity</a>,
+  "group": <a href="./../registries/tabgroup">TabGroup</a>,
+  "rarity": <a href="./../registries/rarity">Rarity</a>,
   "stack": int,
-  "material": <a href="./../registries#material">Material</a>,
-  "sounds": <a href="./../registries#soundtype">SoundType</a>,
-  "mapcolor": <a href="./../registries#mapcolor">MapColor</a>,
+  "material": <a href="./../registries/material">Material</a>,
+  "sounds": <a href="./../registries/soundtype">SoundType</a>,
+  "mapcolor": <a href="./../registries/mapcolor">MapColor</a>,
   "light": int,
   "resistance": float,
   "hardness": float,
@@ -38,11 +38,11 @@
     * Defaults to no activated flags.
 * `group`: `TabGroup`
     * The Tab Group this belongs to in Creative mode.
-    * Valid entries are given by the [Tab Group Registry](./../registries#tab-group).
+    * Valid entries are given by the [Tab Group Registry](./../registries/tabgroup).
     * Defaults to misc.
 * `rarity`: `Rarity`
     * The color of this block's item's name, given as a rarity string.
-    * Valid entries are given by the [Rarity Registry](./../registries#rarity).
+    * Valid entries are given by the [Rarity Registry](./../registries/rarity).
     * Defaults to common.
 * `stack`: `int`
     * The maximum stack size of this block's item.
@@ -51,16 +51,16 @@
     * Defaults to 64.
 * `material`: `Material`
     * Determines the default map color, liquid, solid, solid blocking, block movement, can burn, can replace, and piston status of blocks.
-    * Valid entries are given by the [Material Registry](./../registries#material).
+    * Valid entries are given by the [Material Registry](./../registries/material).
     * Defaults to earth.
 * `sounds`: `SoundType`
     * The types of sounds this block makes.
-    * Valid entries are given by the [Sound Registry](./../registries#sound-type).
+    * Valid entries are given by the [Sound Registry](./../registries/soundtype).
     * Defaults to stone.
 * `mapcolor`: `MapColor`
     * The color this block makes when it shows up on a map.
     * Being empty causes this to be inherited from the material.
-    * Valid entries are given by the [Material Color Registry](./../registries#material-color).
+    * Valid entries are given by the [Material Color Registry](./../registries/materialcolor).
     * Defaults to empty.
 * `light`: `int`
     * The amount of light this block makes.
@@ -96,6 +96,6 @@
     * This fixes the x-ray issues you get with custom models.
 * `lore`
     * Adds a line of lore to the block's item.
-    * The lang entry will have a key of `block.jsonifycraft.[blockname].lore`.
+    * The lang entry will have a key of `block.jsonifycraft.blockname.lore` where `blockname` is the registry name of the block.
 * `shimmer`
     * Causes the block's item to shimmer, similarly to an enchanted item.

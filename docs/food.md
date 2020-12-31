@@ -7,10 +7,10 @@
 <pre class="styledpre">
 {
   "type": "food",
-  "flags": <a href="./../blocks#flags">Flag[]</a>,
+  "flags": <a href="./blocks#flags">Flag[]</a>,
   "name": String,
-  "group": <a href="./../registries#tabgroup">TabGroup</a>,
-  "rarity": <a href="./../registries#rarity">Rarity</a>,
+  "group": <a href="./../registries/tabgroup">TabGroup</a>,
+  "rarity": <a href="./../registries/rarity">Rarity</a>,
   "stack": int,
   "hunger": int,
   "saturation": float,
@@ -47,11 +47,11 @@
     * Defaults to no activated flags.
 * `group`: `TabGroup`
     * The Tab Group this belongs to in Creative mode.
-    * Valid entries are given by the [Tab Group Registry](./../registries#tab-group).
+    * Valid entries are given by the [Tab Group Registry](./../registries/tabgroup).
     * Defaults to misc.
 * `rarity`: `Rarity`
     * The color of this food's name, given as a rarity string.
-    * Valid entries are given by the [Rarity Registry](./../registries#rarity).
+    * Valid entries are given by the [Rarity Registry](./../registries/rarity).
     * Defaults to common.
 * `stack`: `int`
     * The maximum stack size of this food.

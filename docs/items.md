@@ -7,10 +7,10 @@
 <pre class="styledpre">
 {
   "type": "item",
-  "flags": <a href="./../items#flags">Flag[]</a>,
+  "flags": <a href="./#flags">Flag[]</a>,
   "name": String,
-  "group": <a href="./../registries#tabgroup">TabGroup</a>,
-  "rarity": <a href="./../registries#rarity">Rarity</a>,
+  "group": <a href="./../registries/tabgroup">TabGroup</a>,
+  "rarity": <a href="./../registries/rarity">Rarity</a>,
   "stack": int
 }
 </pre>
@@ -30,11 +30,11 @@
     * Defaults to no activated flags.
 * `group`: `TabGroup`
     * The Tab Group this belongs to in Creative mode.
-    * Valid entries are given by the [Tab Group Registry](./../registries#tab-group).
+    * Valid entries are given by the [Tab Group Registry](./../registries/tabgroup).
     * Defaults to misc.
 * `rarity`: `Rarity`
     * The color of this item's name, given as a rarity string.
-    * Valid entries are given by the [Rarity Registry](./../registries#rarity).
+    * Valid entries are given by the [Rarity Registry](./../registries/rarity).
     * Defaults to common.
 * `stack`: `int`
     * The maximum stack size of this item.
@@ -45,6 +45,6 @@
 ### Flags
 * `lore`
     * Adds a line of lore to the item.
-    * The lang entry will have a key of `block.jsonifycraft.[blockname].lore`.
+    * The lang entry will have a key of `block.jsonifycraft.itemname.lore` where `itemname` is the registry name of the item.
 * `shimmer`
     * Causes the item to shimmer, similarly to an enchanted item.
