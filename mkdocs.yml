@@ -8,6 +8,7 @@ extra_css:
 nav:
   - JsonifyCraft: 'index.md'
   - Discord: 'https://discord.gg/Ca2hx6X'
+  - Road Map: 'https://trello.com/b/kgTcXgxC/jsonifycraft'
   - Game Objects:
     - 'items.md'
     - 'blocks.md'
